@@ -37,6 +37,9 @@
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
               Belépés
             </button>
+            <button type="button" class="btn btn-primary ms-2" data-bs-toggle="modal" data-bs-target="#aboutModal">
+              Névjegy
+            </button>
           </nav>
 
         <h1>Humani</h1>
@@ -68,5 +71,33 @@
         </div>
       </div>
     </div>
+    <div class="modal" id="aboutModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Névjegy</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="card" style="width: 18rem;">
+              <img src="images/TilosArc.png" class="card-img-top w-25" alt="Humani logo">
+              <div class="card-body">
+                <h5 class="card-title">Humani</h5>
+                <p class="card-text">Dolgozó nyilvántartó</p>
+                <p class="card-text">Verzió: 0.1</p>
+                <a href="https://github.com/tilitihub/Humani"
+                target="_blank"
+                class="btn btn-primary">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
 </body>
 </html>
